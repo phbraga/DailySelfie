@@ -21,7 +21,7 @@ public class Utils {
 	public static String mBitmapStoragePath;
 	
 	/**
-	 * Source code comes from Adam Porter material course
+	 * Based on Adam Porter material android course
 	 */
 	public static void initStoragePath (Context context) {
 		if (Environment.getExternalStorageState().equals(
@@ -41,7 +41,7 @@ public class Utils {
 	}
 	
 	/**
-	 * Source code comes from http://developer.android.com/training/camera/photobasics.html
+	 * Based on source code from http://developer.android.com/training/camera/photobasics.html
 	 * @return File
 	 * @throws IOException
 	 */
@@ -57,7 +57,7 @@ public class Utils {
 	}
 	
 	/**
-	 * Source code comes from http://developer.android.com/training/camera/photobasics.html
+	 * Based on source code from http://developer.android.com/training/camera/photobasics.html
 	 * @return Bitmap
 	 */
 	public static final Bitmap getScaledBitmap(String imagePath, int dimension) {
@@ -97,7 +97,7 @@ public class Utils {
 	}
 
     /**
-	 * Source code comes from Adam Porter material course
+	 * Based on Adam Porter material android course
 	 */
 	public static final boolean storeSelfies(Bitmap bitmap, String path) {
 		boolean ret = true;;
