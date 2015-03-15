@@ -9,14 +9,12 @@ import android.widget.ImageView;
 
 public class FullScreenActivity extends Activity {
 	
-//	private ImageView mImageView;
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.selfie_fullscreen);
 		
-		ImageView mImageView = (ImageView) findViewById(R.id.selfie_fullscreen);
+		ImageView imageView = (ImageView) findViewById(R.id.selfie_fullscreen);
 		
 		Intent intent = getIntent();
 		
@@ -29,7 +27,7 @@ public class FullScreenActivity extends Activity {
 				String name = bundle.getString(Constants.KEY_FULLSCREEN_NAME);
 				String path = bundle.getString(Constants.KEY_FULLSCREEN_PATH);
 				setTitle(name);
-				new LoadImageTask(this, mImageView).execute(path);
+				new LoadImageTask(this, imageView).execute(path);
 			}
 		}
 		
