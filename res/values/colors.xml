@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="screen_bg">#EEEEEE</color>
+	<color name="list_item_text_color">#646464</color>
+	<color name="selector_list_item_bacground_color">#EEEEEE</color>
+	<color name="selector_list_item_background_color_pressed">#D6D6D6</color>
+	<color name="div_separator_list_item_background_color">#DBDBDB</color>
+	<color name="white">#FFFFFF</color>
+</resources>

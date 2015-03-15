@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_list_item_background"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:padding="15dp" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+        
+        <ImageView
+            android:id="@+id/selfie_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/selfie_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+            android:textColor="@color/list_item_text_color"
+            android:gravity="left|center_vertical"
+            android:textSize="12sp"
+            android:typeface="sans"
+            android:background="@drawable/selector_list_item_background" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/div_separator_list_item_background_color"
+        android:gravity="center_horizontal" >
+    </LinearLayout>
+    
+
+</RelativeLayout>

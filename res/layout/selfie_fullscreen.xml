@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selfie_fullscreen_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/div_separator_list_item_background_color"
+    android:orientation="vertical" >
+    
+    <ImageView
+    	android:layout_marginTop="@dimen/activity_vertical_margin"
+    	android:layout_marginBottom="@dimen/activity_vertical_margin"
+    	android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    	android:layout_marginRight="@dimen/activity_horizontal_margin"
+    	android:background="@color/white"
+        android:id="@+id/selfie_fullscreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:contentDescription="@null"/>
+
+</LinearLayout>
